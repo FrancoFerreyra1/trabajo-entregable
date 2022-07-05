@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+footer{
+    grid-area: footer;
+    background-color:darkcyan;
+}
+.gmail{
+    color: white;
+    margin-right: 20px;
+
+}
+.contacto{
+    display: flex;
+    color: white;
+    margin-left: 30px;
+}
+#iconofooter{
+    font-size:20px;
+    border: 0;
+    color: white;
+    background-color: darkcyan;
+    padding: 5px;
+
+}

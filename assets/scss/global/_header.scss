@@ -1,0 +1,59 @@
+
+header{
+    grid-area: header;
+}
+.iconoHeader{
+    width: 60px;
+    height: auto;
+    font-size:40px;
+    margin-top:15px;
+    margin-left: 20px;
+    background-color: darkcyan;
+    color: white;
+    border: 0;
+
+}
+header{
+    background-color:darkcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content:center;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 50px;
+    font-size: 50px;
+
+    
+
+}
+.navegador{
+    display:flex;
+    justify-content:space-between;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.menu a{
+    display:inline-block;
+    color: white ;
+    margin:5px;
+    padding:20px;
+    border: 1px solid white;
+}
+.menu a{
+    padding:5px;
+    margin:5px;
+    
+}
+.menu a:hover{
+    color:aquamarine;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
