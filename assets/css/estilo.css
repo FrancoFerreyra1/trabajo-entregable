@@ -85,7 +85,7 @@ a{
 
 .intro{
     grid-area: intro;
-    background-image:url(assets/img/fondoIntro.jpg);
+    background-image:url(../img/fondoIntro.jpg);
 }
 .articulo{
     display:flex;
