@@ -8,25 +8,19 @@ header{
     font-size:40px;
     margin-top:15px;
     margin-left: 20px;
-    background-color: darkcyan;
-    color: white;
     border: 0;
 
 }
+
 header{
     background-color:darkcyan;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(space-between,center)
 }
 h1{
-    display: flex;
-    justify-content:center;
-    color: white;
+    @extend .font;
     text-align: center;
     padding-top: 10px;
     margin-right: 50px;
-    font-size: 50px;
 
     
 
@@ -48,7 +42,6 @@ h1{
 .menu a{
     padding:5px;
     margin:5px;
-    
 }
 .menu a:hover{
     color:aquamarine;
