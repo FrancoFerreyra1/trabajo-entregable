@@ -1,0 +1,24 @@
+/*variables*/
+$color-white:white;
+$color-darkcyan:darkcyan;
+$border:0px;
+
+/*mapa*/
+$color: (
+    primary:white,
+    secondary:darkcyan,
+);
+h1{
+    color:map-get($color,primary );
+}
+h2{
+    color:map-get($color,secondary)
+}
+
+/*extend*/
+.font{
+    font-size: 50px;
+    display: flex;
+    justify-content:center;
+    color:white;
+}
